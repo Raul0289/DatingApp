@@ -12,6 +12,7 @@ import { JwtModule } from '@auth0/angular-jwt';
 import { HttpClientModule} from '@angular/common/http';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
+import { TimeagoModule } from 'ngx-timeago';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -47,7 +48,6 @@ export function tokenGetter(){
 //    };
 // }
 
-
 @NgModule({
    declarations: [
       AppComponent,
@@ -76,6 +76,7 @@ export function tokenGetter(){
       HttpClientModule,
       NgxGalleryModule,
       FileUploadModule,
+      TimeagoModule.forRoot(),
       JwtModule.forRoot({
          config:{
             tokenGetter: tokenGetter,
