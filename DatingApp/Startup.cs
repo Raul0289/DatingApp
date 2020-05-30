@@ -20,6 +20,7 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using DatingApp.Helpers;
 using AutoMapper;
+using Microsoft.Net.Http.Headers;
 
 namespace DatingApp
 {
