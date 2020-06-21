@@ -7,7 +7,7 @@ import { Photo } from './photo';
         age: number;
         gender: string;
         created: Date;
-        lastActive: Date;
+        lastActive: any;
         photoUrl: string;
         city: string;
         country: string;

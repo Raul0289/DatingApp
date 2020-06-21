@@ -3,6 +3,8 @@ bin
 obj
 *.db
 appsettings.json
+wwwroot
+wwwrot
 
 # compiled output
 /dist
